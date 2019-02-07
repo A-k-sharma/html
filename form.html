@@ -29,38 +29,41 @@
   <div class="row">
     <div class="col-sm-3" style="background-color:white;">
     </div>
-    <div class="col-sm-6" style="background-color:pink;">
+    <div class="col-sm-6" style="background-color:">
+       <div style="background-color: grey;border-radius: 15px;width: 500px;">
+        <h3 style="background-color: grey;color: white;margin-left: 20px;margin-right: 20px;padding-top: 15px;">Bug Report</h3>
+       <hr>
+       </div> 
         <form>
               Title:*<br>
               <input type="text" name="firstname" style="width: 500px;">
               <br>
               Description:*<br>
               <textarea type="text" name="description" style="width: 500px;" ></textarea><br>
-                Operating system:<br><select name="os" style="width: 500px;">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="fiat">Fiat</option>
-                    <option value="audi">Audi</option>
+                Operating system:<br><select name="os" style="width: 500px; background-color:#07f5e7;border-radius: 15px; height: 25px;">
+                    <option value="volvo" >Window</option>
+                    <option value="saab">Ubantu</option>
+                    <option value="fiat">MAc</option>
+                    <option value="audi">Linux</option>
                </select>
-                    Product:<br><select name="product" style="width: 500px;">
-                    <option value="volvo">Volvo</option>
+                    Product:<br><select name="product" style="width: 500px; background-color: #07f5e7;border-radius: 15px; height: 25px;">
+                    <option value="volvo">Formoid</option>
                     <option value="saab">Saab</option>
-                    <option value="fiat">Fiat</option>
-                    <option value="audi">Audi</option>
                </select>
                Version:*<br>
                <input type="text" name="version" style="width: 500px;">
                Licence:<br>
                <input type="radio" name="f" style="margin-left: 60px">free<input type="radio" name="b" style="margin-left: 60px;">business
-                    Security:<br><select name="product" style="width: 500px;">
-                    <option value="volvo">Volvo</option>
+                    Security:<br><select name="product" style="width: 500px; background-color: #07f5e7;border-radius: 15px; height: 25px;">
+                    <option value="volvo">Critical</option>
                     <option value="saab">Saab</option>
                     <option value="fiat">Fiat</option>
                     <option value="audi">Audi</option>
                 </select>
                 Attachments:
                  <input type="file" name="Report" accept="image/*">
-  <br><br>
+                <hr>
+               <input type="button" name="submit" value="Send" style="margin-left: 430px;">
         </form>
     </div>
     <div class="col-sm-3" style="background-color:white;">
